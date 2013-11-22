@@ -12,6 +12,8 @@ namespace Urna.entidades
         private string nome;
         private string numero;
 
+        public Senador() { }
+
         public Senador(string nome, string numero)
         {
             this.MyNome = nome;

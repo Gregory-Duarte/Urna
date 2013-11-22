@@ -29,6 +29,8 @@ namespace Urna.entidades
 
         private bool senador1_OK = false;
 
+        public Eleitor() { }
+
         public Eleitor(string nome, string numero) 
         {
             this.MyNome = nome;

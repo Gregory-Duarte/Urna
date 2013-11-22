@@ -1,6 +1,6 @@
 ﻿namespace Urna
 {
-    partial class Form1
+    partial class Tela
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -163,6 +163,7 @@
             this.button0.TabIndex = 11;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
+            this.button0.Click += new System.EventHandler(this.DigitaCandidato);
             // 
             // btnBranco
             // 
@@ -254,6 +255,7 @@
             this.txbDescricao.Text = "Nome: Luís Ignácio \"Mula\" da Silva\r\nCargo: Presunto\r\nPartido: ColiGay\r\nCódigo: 17" +
     "124\r\nVice: Dilma \"Figa\" Ruçefi";
             this.txbDescricao.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbDescricao.TextChanged += new System.EventHandler(this.txbDescricao_TextChanged);
             // 
             // shapeContainer1
             // 
@@ -283,7 +285,7 @@
             this.lineShape1.Y1 = 13;
             this.lineShape1.Y2 = 434;
             // 
-            // Form1
+            // Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -310,7 +312,7 @@
             this.Controls.Add(this.shapeContainer1);
             this.MaximumSize = new System.Drawing.Size(590, 487);
             this.MinimumSize = new System.Drawing.Size(590, 487);
-            this.Name = "Form1";
+            this.Name = "Tela";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simulador de Urna";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -11,6 +11,8 @@ namespace Urna.entidades
         private int votos = 0;
         private string nome;
         private string numero;
+
+        public Governador() { }
         
         public Governador(string nome, string numero)
         {
