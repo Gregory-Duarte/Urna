@@ -62,13 +62,5 @@ namespace Urna
             else { MessageBox.Show("Código de eleitor invalido.\n\n*Nome: Super Mario - N°:12345\n*Nome: Seu Madruga - N°: 54321\n*Nome: Dick Vigarista - N°: 11223\n*Nome: E.T. Bilú - N°: 34455\n", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
-        private void txbDescricao_TextChanged(object sender, EventArgs e) { }
-
-        private void DigitaCandidato(object sender, EventArgs e)
-        {
-            //if(button0.KeyPress())
-            //button0.Name;
-        }
-       
     }
 }

@@ -163,7 +163,6 @@
             this.button0.TabIndex = 11;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
-            this.button0.Click += new System.EventHandler(this.DigitaCandidato);
             // 
             // btnBranco
             // 
@@ -255,7 +254,6 @@
             this.txbDescricao.Text = "Nome: Luís Ignácio \"Mula\" da Silva\r\nCargo: Presunto\r\nPartido: ColiGay\r\nCódigo: 17" +
     "124\r\nVice: Dilma \"Figa\" Ruçefi";
             this.txbDescricao.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txbDescricao.TextChanged += new System.EventHandler(this.txbDescricao_TextChanged);
             // 
             // shapeContainer1
             // 
