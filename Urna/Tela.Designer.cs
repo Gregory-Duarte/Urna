@@ -51,6 +51,7 @@
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lblPilantra = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxImagem)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,6 +65,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -75,6 +77,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -86,6 +89,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -97,6 +101,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -108,6 +113,7 @@
             this.button5.TabIndex = 6;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -119,6 +125,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -130,6 +137,7 @@
             this.button7.TabIndex = 8;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -141,6 +149,7 @@
             this.button8.TabIndex = 9;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -152,6 +161,7 @@
             this.button9.TabIndex = 10;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button0
             // 
@@ -163,6 +173,7 @@
             this.button0.TabIndex = 11;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
+            this.button0.Click += new System.EventHandler(this.button0_Click);
             // 
             // btnBranco
             // 
@@ -173,6 +184,7 @@
             this.btnBranco.TabIndex = 12;
             this.btnBranco.Text = "Branco";
             this.btnBranco.UseVisualStyleBackColor = false;
+            this.btnBranco.Click += new System.EventHandler(this.btnBranco_Click);
             // 
             // btnCorrige
             // 
@@ -183,6 +195,7 @@
             this.btnCorrige.TabIndex = 13;
             this.btnCorrige.Text = "Corrige";
             this.btnCorrige.UseVisualStyleBackColor = false;
+            this.btnCorrige.Click += new System.EventHandler(this.btnCorrige_Click);
             // 
             // btnConfirma
             // 
@@ -193,6 +206,7 @@
             this.btnConfirma.TabIndex = 14;
             this.btnConfirma.Text = "Confirma";
             this.btnConfirma.UseVisualStyleBackColor = false;
+            this.btnConfirma.Click += new System.EventHandler(this.btnConfirma_Click);
             // 
             // txtNumero
             // 
@@ -244,15 +258,13 @@
             // 
             this.txbDescricao.BackColor = System.Drawing.SystemColors.Window;
             this.txbDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbDescricao.Location = new System.Drawing.Point(12, 278);
+            this.txbDescricao.Location = new System.Drawing.Point(12, 309);
             this.txbDescricao.Multiline = true;
             this.txbDescricao.Name = "txbDescricao";
             this.txbDescricao.ReadOnly = true;
-            this.txbDescricao.Size = new System.Drawing.Size(260, 157);
+            this.txbDescricao.Size = new System.Drawing.Size(260, 126);
             this.txbDescricao.TabIndex = 18;
             this.txbDescricao.TabStop = false;
-            this.txbDescricao.Text = "Nome: Luís Ignácio \"Mula\" da Silva\r\nCargo: Presunto\r\nPartido: ColiGay\r\nCódigo: 17" +
-    "124\r\nVice: Dilma \"Figa\" Ruçefi";
             this.txbDescricao.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // shapeContainer1
@@ -283,11 +295,21 @@
             this.lineShape1.Y1 = 13;
             this.lineShape1.Y2 = 434;
             // 
+            // lblPilantra
+            // 
+            this.lblPilantra.AutoSize = true;
+            this.lblPilantra.Location = new System.Drawing.Point(24, 289);
+            this.lblPilantra.Name = "lblPilantra";
+            this.lblPilantra.Size = new System.Drawing.Size(41, 13);
+            this.lblPilantra.TabIndex = 20;
+            this.lblPilantra.Text = "(Cargo)";
+            // 
             // Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(574, 448);
+            this.Controls.Add(this.lblPilantra);
             this.Controls.Add(this.txbDescricao);
             this.Controls.Add(this.pbxImagem);
             this.Controls.Add(this.btnIniciar);
@@ -308,6 +330,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.shapeContainer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(590, 487);
             this.MinimumSize = new System.Drawing.Size(590, 487);
             this.Name = "Tela";
@@ -344,6 +367,7 @@
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
+        private System.Windows.Forms.Label lblPilantra;
     }
 }
 

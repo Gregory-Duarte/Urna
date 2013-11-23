@@ -25,7 +25,7 @@ namespace Urna.sistema
         {
             get { return cod; }
             set { cod = value; }
-        }        
+        } // MyCod
 
         public bool IsCodeValid()
         {
@@ -46,7 +46,6 @@ namespace Urna.sistema
             for (int i = 0; i < listEleitor.Length; i++)
             {
                 if (cod.Equals(listEleitor[i].MyNumero)) { nome = listEleitor[i].MyNome; break; }
-                //nome = listEleitor[i].MyNome;
             }
 
             return nome;
@@ -56,7 +55,7 @@ namespace Urna.sistema
         {
             int total = 0;
 
-            for (int i = 1; i < this.listEleitor.Length; i++)
+            for (int i = 0; i < this.listEleitor.Length; i++)
             {
                 total += listEleitor[i].TotalBrancos();
             }

@@ -14,10 +14,11 @@ namespace Urna.entidades
 
         public Presidente() { }
 
-        public Presidente(string nome, string numero)
+        public Presidente(string nome, string numero, int votos)
         {
             this.MyNome = nome;
             this.MyNumero = numero;
+            this.MyVotos = votos;
         }
 
         public void IncrementaVotos() { votos++; }

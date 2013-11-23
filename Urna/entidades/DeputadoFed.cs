@@ -14,10 +14,11 @@ namespace Urna.entidades
 
         public DeputadoFed() { }
 
-        public DeputadoFed(string nome, string numero)
+        public DeputadoFed(string nome, string numero, int votos)
         {
             this.MyNome = nome;
             this.MyNumero = numero;
+            this.MyVotos = votos;
         }
 
         public void IncrementaVotos() { votos++; }

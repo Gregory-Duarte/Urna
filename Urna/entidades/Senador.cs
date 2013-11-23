@@ -8,16 +8,17 @@ namespace Urna.entidades
 {
     class Senador
     {
-        private int votos = 0;
+        public int votos = 0;
         private string nome;
         private string numero;
 
         public Senador() { }
 
-        public Senador(string nome, string numero)
+        public Senador(string nome, string numero, int votos)
         {
             this.MyNome = nome;
             this.MyNumero = numero;
+            this.MyVotos = votos;
         }
 
         public void IncrementaVotos() { votos++; }
