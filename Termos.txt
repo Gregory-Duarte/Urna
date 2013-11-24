@@ -1,0 +1,19 @@
+                                                                                                                                                                    TERMO DE COMPROMISSO
+
+O presente Termo de Compromisso tem por finalidade assegurar o desenvolvimento do Projeto.
+Os estudantes, abaixo relacionados, do curso de Análise e Desenvolvimento de Sitemas, firmam o seguinte compromisso:
+
+Realizarem um software que simula uma "Urna Eletônica" com contexto semelhante ao original
+(Botões e suas funcionalidades, Tela com foto, dados do candidato e nome do votante) e trabalharem em sistema de corresponsabilidade na elaboração do Projeto.
+
+Por se tratar de um simulador está descartada a possibilidade de comercialização.
+ 
+Alunos:
+Bruno  Welausen
+Fernando Ortiz
+Gregory Duarte
+Josué Silva
+
+
+                                   Porto Alegre, 25 de Novembro 2013. 
+
