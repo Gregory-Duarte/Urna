@@ -9,7 +9,7 @@ Realizarem um software que simula uma "Urna Eletônica" com contexto semelhante a
 Por se tratar de um simulador está descartada a possibilidade de comercialização.
  
 Alunos:
-Bruno  Welausen
+Bruno  La Porta
 Fernando Ortiz
 Gregory Duarte
 Josué Silva
